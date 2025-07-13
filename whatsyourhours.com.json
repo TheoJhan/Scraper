@@ -1,0 +1,903 @@
+[
+  {
+    "action": "fill",
+    "selector": "[name="q"]",
+    // "selector": "[name="q"]",
+    // "selector": "input.member_search",
+    "valueKey": "q",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "[name="location_value"]",
+    // "selector": "[name="location_value"]",
+    // "selector": "#location_google_maps_header",
+    // "selector": "input.googleSuggest",
+    "valueKey": "location_value",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "input.btn",
+    // "selector": "input.btn",
+    "valueKey": "field3",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button.navbar-toggle",
+    // "selector": "button.navbar-toggle",
+    "valueKey": "field4",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "#member_sidebar_toggle",
+    // "selector": "#member_sidebar_toggle",
+    // "selector": "button.navbar-toggle",
+    "valueKey": "member_sidebar_toggle",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button.fv-hidden-submit",
+    // "selector": "button.fv-hidden-submit",
+    "valueKey": "field6",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "[name="sized"]",
+    // "selector": "[name="sized"]",
+    // "selector": "#contact_10-element-0",
+    "valueKey": "sized",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "[name="form"]",
+    // "selector": "[name="form"]",
+    // "selector": "#contact_10-element-1",
+    "valueKey": "form",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "[name="formname"]",
+    // "selector": "[name="formname"]",
+    // "selector": "#contact_10-element-2",
+    "valueKey": "formname",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "[name="dowiz"]",
+    // "selector": "[name="dowiz"]",
+    // "selector": "#contact_10-element-3",
+    "valueKey": "dowiz",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "[name="save"]",
+    // "selector": "[name="save"]",
+    // "selector": "#contact_10-element-4",
+    "valueKey": "save",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "[name="logged_user"]",
+    // "selector": "[name="logged_user"]",
+    // "selector": "#contact_10-element-5",
+    "valueKey": "logged_user",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "[name="additional_fields"]",
+    // "selector": "[name="additional_fields"]",
+    // "selector": "#contact_10-element-8",
+    // "selector": "select.form-control",
+    "valueKey": "additional_fields",
+    "label": "* How did you hear about us?"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="listing_type"]",
+    // "selector": "[name="listing_type"]",
+    // "selector": "#inline-0",
+    "valueKey": "listing_type",
+    "label": "Company"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="listing_type"]",
+    // "selector": "[name="listing_type"]",
+    // "selector": "#inline-1",
+    "valueKey": "listing_type",
+    "label": "Individual"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="first_name"]",
+    // "selector": "[name="first_name"]",
+    // "selector": "#contact_10-element-10",
+    // "selector": "input.form-control",
+    "valueKey": "first_name",
+    "label": "* First Name"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="last_name"]",
+    // "selector": "[name="last_name"]",
+    // "selector": "#contact_10-element-11",
+    // "selector": "input.form-control",
+    "valueKey": "last_name",
+    "label": "* Last Name"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="company"]",
+    // "selector": "[name="company"]",
+    // "selector": "#contact_10-element-12",
+    // "selector": "input.form-control",
+    "valueKey": "company",
+    "label": "Company Name"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="position"]",
+    // "selector": "[name="position"]",
+    // "selector": "#contact_10-element-13",
+    // "selector": "select.form-control",
+    "valueKey": "position",
+    "label": "* Your Position"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="profession_id"]",
+    // "selector": "[name="profession_id"]",
+    // "selector": "#contact_10-element-14",
+    // "selector": "select.form-control",
+    "valueKey": "profession_id",
+    "label": "* Best Describes You"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="phone_number"]",
+    // "selector": "[name="phone_number"]",
+    // "selector": "#contact_10-element-15",
+    // "selector": "input.form-control",
+    "valueKey": "phone_number",
+    "label": "* Phone Number"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="toll_free_number"]",
+    // "selector": "[name="toll_free_number"]",
+    // "selector": "#contact_10-element-16",
+    // "selector": "input.form-control",
+    "valueKey": "toll_free_number",
+    "label": "Toll Free Number"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="mobile_number"]",
+    // "selector": "[name="mobile_number"]",
+    // "selector": "#contact_10-element-17",
+    // "selector": "input.form-control",
+    "valueKey": "mobile_number",
+    "label": "* Mobile Number"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="email"]",
+    // "selector": "[name="email"]",
+    // "selector": "#contact_10-element-18",
+    // "selector": "input.email",
+    "valueKey": "email",
+    "label": "* Emails Sent To"
+  },
+  {
+    "action": "fill",
+    "selector": "#pac-input",
+    // "selector": "#pac-input",
+    // "selector": "input.controls",
+    "valueKey": "pac-input",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button:nth-of-type(26)",
+    "valueKey": "field26",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button.gm-control-active",
+    // "selector": "button.gm-control-active",
+    "valueKey": "field27",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button.gm-control-active",
+    // "selector": "button.gm-control-active",
+    "valueKey": "field28",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button.gm-control-active",
+    // "selector": "button.gm-control-active",
+    "valueKey": "field29",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button.gm-tilt",
+    // "selector": "button.gm-tilt",
+    "valueKey": "field30",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button.gm-control-active",
+    // "selector": "button.gm-control-active",
+    "valueKey": "field31",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button.gm-control-active",
+    // "selector": "button.gm-control-active",
+    "valueKey": "field32",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button.gm-control-active",
+    // "selector": "button.gm-control-active",
+    "valueKey": "field33",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button.gm-control-active",
+    // "selector": "button.gm-control-active",
+    "valueKey": "field34",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button.gm-control-active",
+    // "selector": "button.gm-control-active",
+    "valueKey": "field35",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button.gm-control-active",
+    // "selector": "button.gm-control-active",
+    "valueKey": "field36",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button.gm-control-active",
+    // "selector": "button.gm-control-active",
+    "valueKey": "field37",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button:nth-of-type(38)",
+    "valueKey": "field38",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button:nth-of-type(39)",
+    "valueKey": "field39",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button.gm-style-cc",
+    // "selector": "button.gm-style-cc",
+    "valueKey": "field40",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button.dismissButton",
+    // "selector": "button.dismissButton",
+    "valueKey": "field41",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "input.fill-change-marker",
+    // "selector": "input.fill-change-marker",
+    "valueKey": "field42",
+    "label": "Fill in the location fields below based on where I move the marker on the map above"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="country_sn"]",
+    // "selector": "[name="country_sn"]",
+    "valueKey": "country_sn",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "[name="state_sn"]",
+    // "selector": "[name="state_sn"]",
+    "valueKey": "state_sn",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "[name="address1"]",
+    // "selector": "[name="address1"]",
+    // "selector": "#contact_10-element-21",
+    // "selector": "input.form-control",
+    "valueKey": "address1",
+    "label": "Address Line 1"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="lat"]",
+    // "selector": "[name="lat"]",
+    // "selector": "#contact_10-element-22",
+    "valueKey": "lat",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "[name="lon"]",
+    // "selector": "[name="lon"]",
+    // "selector": "#contact_10-element-23",
+    "valueKey": "lon",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "[name="address2"]",
+    // "selector": "[name="address2"]",
+    // "selector": "#contact_10-element-24",
+    // "selector": "input.form-control",
+    "valueKey": "address2",
+    "label": "Address Line 2"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="city"]",
+    // "selector": "[name="city"]",
+    // "selector": "#contact_10-element-25",
+    // "selector": "input.form-control",
+    "valueKey": "city",
+    "label": "City"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="state_ln"]",
+    // "selector": "[name="state_ln"]",
+    // "selector": "#contact_10-element-26",
+    // "selector": "input.form-control",
+    "valueKey": "state_ln",
+    "label": "State"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="country_ln"]",
+    // "selector": "[name="country_ln"]",
+    // "selector": "#contact_10-element-27",
+    // "selector": "input.form-control",
+    "valueKey": "country_ln",
+    "label": "Country"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="country_code"]",
+    // "selector": "[name="country_code"]",
+    // "selector": "#contact_10-element-28",
+    "valueKey": "country_code",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "[name="state_code"]",
+    // "selector": "[name="state_code"]",
+    // "selector": "#contact_10-element-29",
+    "valueKey": "state_code",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "[name="zip_code"]",
+    // "selector": "[name="zip_code"]",
+    // "selector": "#contact_10-element-30",
+    // "selector": "input.form-control",
+    "valueKey": "zip_code",
+    "label": "Enter Postal Code"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="website"]",
+    // "selector": "[name="website"]",
+    // "selector": "#contact_10-element-33",
+    // "selector": "input.website",
+    "valueKey": "website",
+    "label": "Your Website"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="blog"]",
+    // "selector": "[name="blog"]",
+    // "selector": "#contact_10-element-34",
+    // "selector": "input.website",
+    "valueKey": "blog",
+    "label": "Blog"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="youtube"]",
+    // "selector": "[name="youtube"]",
+    // "selector": "#contact_10-element-35",
+    // "selector": "input.website",
+    "valueKey": "youtube",
+    "label": "YouTube"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="pinterest"]",
+    // "selector": "[name="pinterest"]",
+    // "selector": "#contact_10-element-36",
+    // "selector": "input.website",
+    "valueKey": "pinterest",
+    "label": "Pinterest"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="twitter"]",
+    // "selector": "[name="twitter"]",
+    // "selector": "#contact_10-element-37",
+    // "selector": "input.website",
+    "valueKey": "twitter",
+    "label": "Twitter"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="facebook"]",
+    // "selector": "[name="facebook"]",
+    // "selector": "#contact_10-element-38",
+    // "selector": "input.website",
+    "valueKey": "facebook",
+    "label": "Facebook"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="linkedin"]",
+    // "selector": "[name="linkedin"]",
+    // "selector": "#contact_10-element-39",
+    // "selector": "input.website",
+    "valueKey": "linkedin",
+    "label": "LinkedIn"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="google_plus"]",
+    // "selector": "[name="google_plus"]",
+    // "selector": "#contact_10-element-40",
+    // "selector": "input.website",
+    "valueKey": "google_plus",
+    "label": "Google+"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="instagram"]",
+    // "selector": "[name="instagram"]",
+    // "selector": "#contact_10-element-41",
+    // "selector": "input.form-control",
+    "valueKey": "instagram",
+    "label": "Instagram"
+  },
+  {
+    "action": "fill",
+    "selector": "#contact_10-element-42",
+    // "selector": "#contact_10-element-42",
+    // "selector": "input.btn",
+    "valueKey": "contact_10-element-42",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "[name="q"]",
+    // "selector": "[name="q"]",
+    // "selector": "input.member_search",
+    "valueKey": "q",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "[name="location_value"]",
+    // "selector": "[name="location_value"]",
+    // "selector": "#location_google_maps_header",
+    // "selector": "input.googleSuggest",
+    "valueKey": "location_value",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "input.btn",
+    // "selector": "input.btn",
+    "valueKey": "field3",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button.navbar-toggle",
+    // "selector": "button.navbar-toggle",
+    "valueKey": "field4",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "#member_sidebar_toggle",
+    // "selector": "#member_sidebar_toggle",
+    // "selector": "button.navbar-toggle",
+    "valueKey": "member_sidebar_toggle",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button.btn",
+    // "selector": "button.btn",
+    "valueKey": "field6",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button.btn",
+    // "selector": "button.btn",
+    "valueKey": "field7",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button.btn",
+    // "selector": "button.btn",
+    "valueKey": "field8",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button.btn",
+    // "selector": "button.btn",
+    "valueKey": "field9",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "[name="input-file-preview"]",
+    // "selector": "[name="input-file-preview"]",
+    // "selector": "#profile-img-upload-input",
+    "valueKey": "input-file-preview",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button.btn",
+    // "selector": "button.btn",
+    "valueKey": "field11",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button.btn",
+    // "selector": "button.btn",
+    "valueKey": "field12",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button.btn",
+    // "selector": "button.btn",
+    "valueKey": "field13",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button.btn",
+    // "selector": "button.btn",
+    "valueKey": "field14",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button.btn",
+    // "selector": "button.btn",
+    "valueKey": "field15",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button.btn",
+    // "selector": "button.btn",
+    "valueKey": "field16",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button.btn",
+    // "selector": "button.btn",
+    "valueKey": "field17",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button.btn",
+    // "selector": "button.btn",
+    "valueKey": "field18",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "[name="input-file-preview"]",
+    // "selector": "[name="input-file-preview"]",
+    // "selector": "#logo-img-upload-input",
+    "valueKey": "input-file-preview",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button.close",
+    // "selector": "button.close",
+    "valueKey": "field20",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "[name="q"]",
+    // "selector": "[name="q"]",
+    // "selector": "input.member_search",
+    "valueKey": "q",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "[name="location_value"]",
+    // "selector": "[name="location_value"]",
+    // "selector": "#location_google_maps_header",
+    // "selector": "input.googleSuggest",
+    "valueKey": "location_value",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "input.btn",
+    // "selector": "input.btn",
+    "valueKey": "field3",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button.navbar-toggle",
+    // "selector": "button.navbar-toggle",
+    "valueKey": "field4",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "#member_sidebar_toggle",
+    // "selector": "#member_sidebar_toggle",
+    // "selector": "button.navbar-toggle",
+    "valueKey": "member_sidebar_toggle",
+    "label": ""
+  },
+  {
+    "action": "click",
+    "selector": "button.fv-hidden-submit",
+    // "selector": "button.fv-hidden-submit",
+    "valueKey": "field6",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "[name="sized"]",
+    // "selector": "[name="sized"]",
+    // "selector": "#resume_8-element-0",
+    "valueKey": "sized",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "[name="form"]",
+    // "selector": "[name="form"]",
+    // "selector": "#resume_8-element-1",
+    "valueKey": "form",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "[name="formname"]",
+    // "selector": "[name="formname"]",
+    // "selector": "#resume_8-element-2",
+    "valueKey": "formname",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "[name="dowiz"]",
+    // "selector": "[name="dowiz"]",
+    // "selector": "#resume_8-element-3",
+    "valueKey": "dowiz",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "[name="save"]",
+    // "selector": "[name="save"]",
+    // "selector": "#resume_8-element-4",
+    "valueKey": "save",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "[name="logged_user"]",
+    // "selector": "[name="logged_user"]",
+    // "selector": "#resume_8-element-5",
+    "valueKey": "logged_user",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "[name="mon_hours"]",
+    // "selector": "[name="mon_hours"]",
+    // "selector": "#resume_8-element-6",
+    // "selector": "input.form-control",
+    "valueKey": "mon_hours",
+    "label": "Monday"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="tue_hours"]",
+    // "selector": "[name="tue_hours"]",
+    // "selector": "#resume_8-element-7",
+    // "selector": "input.form-control",
+    "valueKey": "tue_hours",
+    "label": "Tuesday"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="wed_hours"]",
+    // "selector": "[name="wed_hours"]",
+    // "selector": "#resume_8-element-8",
+    // "selector": "input.form-control",
+    "valueKey": "wed_hours",
+    "label": "Wednesday"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="thu_hours"]",
+    // "selector": "[name="thu_hours"]",
+    // "selector": "#resume_8-element-9",
+    // "selector": "input.form-control",
+    "valueKey": "thu_hours",
+    "label": "Thursday"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="fri_hours"]",
+    // "selector": "[name="fri_hours"]",
+    // "selector": "#resume_8-element-10",
+    // "selector": "input.form-control",
+    "valueKey": "fri_hours",
+    "label": "Friday"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="sat_hours"]",
+    // "selector": "[name="sat_hours"]",
+    // "selector": "#resume_8-element-11",
+    // "selector": "input.form-control",
+    "valueKey": "sat_hours",
+    "label": "Saturday"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="sun_hours"]",
+    // "selector": "[name="sun_hours"]",
+    // "selector": "#resume_8-element-12",
+    // "selector": "input.form-control",
+    "valueKey": "sun_hours",
+    "label": "Sunday"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="all_subcategories"]",
+    // "selector": "[name="all_subcategories"]",
+    "valueKey": "all_subcategories",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "input.form-control",
+    // "selector": "input.form-control",
+    "valueKey": "field21",
+    "label": ""
+  },
+  {
+    "action": "fill",
+    "selector": "[name="quote"]",
+    // "selector": "[name="quote"]",
+    // "selector": "#resume_8-element-15",
+    // "selector": "input.form-control",
+    "valueKey": "quote",
+    "label": "Personal Quote/motto:"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="experience"]",
+    // "selector": "[name="experience"]",
+    // "selector": "#resume_8-element-16",
+    // "selector": "select.form-control",
+    "valueKey": "experience",
+    "label": "Year Established"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="cv"]",
+    // "selector": "[name="cv"]",
+    // "selector": "#upload_field",
+    // "selector": "input.filestyle_uploadcv",
+    "valueKey": "cv",
+    "label": "Upload CV or Brochure"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="employees"]",
+    // "selector": "[name="employees"]",
+    // "selector": "#resume_8-element-18",
+    // "selector": "select.form-control",
+    "valueKey": "employees",
+    "label": "Employees"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="affiliation"]",
+    // "selector": "[name="affiliation"]",
+    // "selector": "#resume_8-element-19",
+    // "selector": "textarea.form-control",
+    "valueKey": "affiliation",
+    "label": "Accepted Forms of Payments"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="credentials"]",
+    // "selector": "[name="credentials"]",
+    // "selector": "#resume_8-element-20",
+    // "selector": "textarea.form-control",
+    "valueKey": "credentials",
+    "label": "Credentials"
+  },
+  {
+    "action": "fill",
+    "selector": "[name="awards"]",
+    // "selector": "[name="awards"]",
+    // "selector": "#resume_8-element-21",
+    // "selector": "textarea.form-control",
+    "valueKey": "awards",
+    "label": "Honors & Awards"
+  },
+  {
+    "action": "fill",
+    "selector": "#resume_8-element-22",
+    // "selector": "#resume_8-element-22",
+    // "selector": "input.btn",
+    "valueKey": "resume_8-element-22",
+    "label": ""
+  }
+]
