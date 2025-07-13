@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "CB-PH Advance Autofill",
+  "version": "1.0",
+  "description": "Automatically fills forms based on predefined selectors.",
+  "permissions": ["scripting", "storage", "tabs", "activeTab", "clipboardWrite"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["automation/*.json"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "content_scripts": [
+  {
+    "matches": ["<all_urls>"],
+    "js": ["content.js"],
+    "run_at": "document_idle"
+  }
+]
+
+}

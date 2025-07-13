@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Autofill Extension</title>
+  <style>
+    :root {
+      --primary: #4f46e5;
+      --primary-hover: #4338ca;
+      --secondary: #6b7280;
+      --secondary-hover: #4b5563;
+      --danger: #ef4444;
+      --danger-hover: #dc2626;
+      --background: #ffffff;
+      --text: #1f2937;
+      --border: #e5e7eb;
+      --radius: 6px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      padding: 16px;
+      width: 320px;
+      color: var(--text);
+      background-color: var(--background);
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .header-icon {
+      width: 24px;
+      height: 24px;
+      margin-right: 8px;
+      color: var(--primary);
+    }
+
+    .header-title {
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .button-group {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .button-group button {
+      flex: 1;
+    }
+
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px 12px;
+      border: none;
+      border-radius: var(--radius);
+      background-color: var(--primary);
+      color: white;
+      font-weight: 500;
+      font-size: 14px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    }
+
+    button:hover {
+      background-color: var(--primary-hover);
+    }
+
+    button:active {
+      transform: translateY(1px);
+    }
+
+    button.secondary {
+      background-color: var(--secondary);
+    }
+
+    button.secondary:hover {
+      background-color: var(--secondary-hover);
+    }
+
+    button.danger {
+      background-color: var(--danger);
+    }
+
+    button.danger:hover {
+      background-color: var(--danger-hover);
+    }
+	#pauseToggleBtn {
+	  background-color: #03b230;
+	  color: #333;
+	  border: 1px solid #ccc;
+	  padding: 0.6em 1.2em;
+	  border-radius: 6px;
+	  display: inline-flex;
+	  align-items: center;
+	  gap: 0.5em;
+	  cursor: pointer;
+	  transition: background-color 0.3s, color 0.3s;
+	}
+
+	#pauseToggleBtn.toggled {
+	  background-color: #ff4d4f; /* Red background */
+	  color: white;              /* White text */
+	  border-color: #ff4d4f;
+	}
+
+	.button-icon {
+	  width: 1em;
+	  height: 1em;
+	}
+
+    .button-icon {
+      margin-right: 8px;
+      width: 16px;
+      height: 16px;
+    }
+
+    .shortcut {
+      display: inline-block;
+      margin-left: 8px;
+      padding: 2px 5px;
+      font-size: 11px;
+      color: rgba(255, 255, 255, 0.8);
+      background-color: rgba(0, 0, 0, 0.2);
+      border-radius: 3px;
+      font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+    }
+
+    .textarea-container {
+      position: relative;
+      margin-top: 12px;
+    }
+
+    .textarea-label {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    textarea {
+      width: 100%;
+      height: 180px;
+      padding: 10px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+      font-size: 12px;
+      resize: vertical;
+      background-color: #f9fafb;
+    }
+
+    textarea:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.1);
+    }
+
+    .copy-button {
+      position: absolute;
+      top: 30px;
+      right: 8px;
+      padding: 4px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .copy-button:hover {
+      background-color: var(--border);
+    }
+
+    .footer {
+      margin-top: 16px;
+      padding-top: 12px;
+      border-top: 1px solid var(--border);
+      font-size: 12px;
+      color: var(--secondary);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<div class="header">
+  <img class="header-icon" src="icons/CB-phLogo.png" alt="CB-ph Logo" />
+  <h1 class="header-title">CB-PH Advance Autofill Scrapper</h1>
+</div>
+
+ <button id="scanPageCategory" class="secondary">
+    <svg class="button-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M2 12a10 10 0 1 0 20 0 10 10 0 1 0-20 0Z"></path>
+      <path d="m8 12 4 4 4-4"></path>
+      <path d="M12 8v8"></path>
+    </svg>
+    Scan Categories
+  </button>
+<div style="margin: 10px 0;">
+  <label for="mainCategory" style="display:block; font-size: 14px; font-weight: 500; margin-bottom: 4px;">Element that holds Main Category</label>
+  <input type="text" id="mainCategory" placeholder="Enter main category" style="width: 100%; padding: 8px; border: 1px solid var(--border); border-radius: var(--radius); font-size: 13px; margin-bottom: 8px;" />
+
+  <label for="subCategory" style="display:block; font-size: 14px; font-weight: 500; margin-bottom: 4px;">Element that holds Subcategory</label>
+  <input type="text" id="subCategory" placeholder="Enter subcategory" style="width: 100%; padding: 8px; border: 1px solid var(--border); border-radius: var(--radius); font-size: 13px;" />
+</div>
+
+  <button id="scanPageElements" class="secondary">
+    <svg class="button-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M2 12a10 10 0 1 0 20 0 10 10 0 1 0-20 0Z"></path>
+      <path d="m8 12 4 4 4-4"></path>
+      <path d="M12 8v8"></path>
+    </svg>
+    Scan Page Elements
+  </button>
+
+  <div class="textarea-container">
+    <label for="scanOutput" class="textarea-label">Scan Results</label>
+    <textarea id="scanOutput" placeholder="Element scan results will appear here..."></textarea>
+    <button class="copy-button" title="Copy to clipboard">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+      </svg>
+    </button>
+  </div>
+  <div class="footer">
+    Citation Builder Philippines Advance Autofill v1.0.0
+  </div>
+
+  <script src="popup.js"></script>
+
+</body>
+</html>
